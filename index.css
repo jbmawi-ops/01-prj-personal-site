@@ -1,0 +1,61 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+  border-right: 1px solid #ffffff;
+}
+
+ul li:last-child {
+    border-right: 0;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #5c0000;
+}
+
+ul li a.active {
+  background-color: #5c0000; 
+}
+
+.bgimage {
+  background-image: url('school.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-nav {
+  flex-direction: row;
+}
+
+.nav-item {
+  margin-left: 15px;
+}
+
+.hero_title {
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+body {
+    font-family: 'Poppins', 'Times New Roman', sans-serif;
+}
+
+ 
